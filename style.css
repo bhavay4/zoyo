@@ -1,0 +1,212 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #eeeeee;
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.loginHeader{
+	width:100%;
+	height: 35px;
+	border-bottom: 1px solid #BDBDBD;
+	background-color: #ef5350;
+}
+
+#header{
+	background-color: #fff;
+	border-bottom: 1px solid #BDBDBD;
+	width: 100%;
+	height: 300px;
+}
+
+.header2{
+	background-color: #fff;
+	border-bottom: 1px solid #BDBDBD;
+	width: 100%;
+	height: 80px;
+	padding-left: 6%;
+	padding-top: 1px;
+}
+
+.logo h2{
+	color: #ef5350;
+	font-size: 100px;
+	text-align: center;
+	padding: 20px;
+	margin-top:40px;
+}
+
+.card{
+	background-color:#fff;
+	border: 1px solid #BDBDBD;
+	width: 100%;
+	height: 300px;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 1 rgba(0, 0, 0, 0.19);
+	margin-top: 30px;
+}
+
+.cardImage{
+	margin-top: 10px;
+	margin-left: 12px;
+	border: 1px solid #BDBDBD;
+	height: 100%;
+	background-color: #fff;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 1 rgba(0, 0, 0, 0.19);
+}
+
+.cardDetails{
+	margin-top: 10px;
+	margin-left: -2px;
+	padding: 10px;
+	height: 100%;
+	border: 1px solid #BDBDBD;
+	background-color: #fff;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 3px 3px 40px 1 rgba(0, 0, 0, 0.19);
+}
+
+.cardPrice{
+	margin-top: 22px;
+	margin-left: 12px;
+	padding: 10px;
+	height: 100%;
+	border: 1px solid #BDBDBD;
+	background-color: #fff;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 1 rgba(0, 0, 0, 0.19);
+}
+
+.subHeading{
+	margin-top: -4px;
+	font-size: 18px;
+	color: #616161;
+}
+
+.subPrice{
+	 margin-top: -8px;
+	 color: #616161;
+	/* padding-left: 18px; */
+}
+
+.hCustomBtn{
+	width: 180px;
+	height: 45px;
+	background-color:#EEEEEE;
+	border: 1px solid #BDBDBD;
+}
+
+.btnBookNow{
+	margin-top: 40px; 
+	width: 150px;
+	height: 45px;
+	background-color: #ef5350;
+	margin-left: 160px; 
+	font-size: 18px;
+}
+
+.noResults{
+	background-color: #fff;
+	width: 1000px;
+	height: 300px;
+	padding: 50px;
+	text-align: center;
+	margin-top: 30px;
+	border-radius: 4px;
+	border: 1px solid #BDBDBD;
+}
+
+.roomBooked{
+	background-color: #fff;
+	width: 1000px;
+	height: 300px;
+	padding: 50px;
+	text-align: center;
+	margin-top: 22%;
+	border-radius: 4px;
+	border: 1px solid #BDBDBD;
+}
+
+.roomBooked a{
+	text-decoration: none;
+	font-size: 18px;
+	padding: 20px;
+}
+
+.roomBooked button{
+	width: 150px;
+	border-radius: 4px;
+}
+
+.cusFilter{
+	border-radius: none;
+}
+
+.subHeader{
+	padding: 20px;
+	background-color: #fff;
+}
+
+li{
+	 list-style-type: none;
+}
+
+.oBookingCard{
+	background-color: #fff;
+	height: auto;
+	margin: 20px;
+	padding: 30px;
+}
+
+.prevDetails{
+	background-color: #EEEEEE;
+	padding: 12px 5px;
+	border-radius: 4px;
+	text-align: center;
+	border: 1px solid #BDBDBD;
+}
+
+.signCard{
+	height: 720px;
+	margin: 40px;
+	background-color: #fff;
+	border: 1px solid #BDBDBD;
+	border-radius: 4px;
+}
+
+.loginInput{
+	width: 490px;
+	margin: 10px 0px;
+	padding: 15px;
+	border-radius: 4px;
+	border: 1px solid #BDBDBD;
+}
+
+.amenitites{
+	margin-right:2px; 
+	margin-left: 10px;
+}
+
+.rating-header {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.hide{
+	display: none;
+}
+
